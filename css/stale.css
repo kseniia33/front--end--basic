@@ -1,0 +1,40 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+html {
+font-size: 16px;
+font-weight: 400;
+line-height: 1,5;
+}
+ p {
+color: blue;
+}
+#homework {
+    color: brown;
+}
+.first {
+    color: blueviolet;
+}
+.second {
+    color: black;
+}
+.third {
+    color: coral;
+}
+.fourth {
+    color: darkolivegreen;
+}
+.wrap p {
+    color: chocolate;
+}
+.wrap > p {
+    color: deeppink;
+}
+.seventh {
+    color: blueviolet;
+}
+.eighth {
+    color: darkgoldenrod;
+}
