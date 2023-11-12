@@ -2,23 +2,25 @@
 html {
     font-size: 18px;
     text-align: center;
-    font-family: 'Pacifico',cursive;
+    font-family: 'Pacifico';
     line-height: 1.7;
     font-weight: 400;
     color: #909090;
 }
 .card {
-    max-width: 350px;
+    max-width: 300px;
     padding: 1rem;
     border-radius: 1rem;
     margin: auto;
     box-shadow: 0 0 30px;
+    
 }
 .container {
     display: block;
     max-width: 1110px;
     margin: auto;
     padding: 1rem;
+    
 }
 
 img {
@@ -38,4 +40,11 @@ h2 {
 h3 {
     font-weight: 700;
     color: #303030;
+}
+.btn {
+    display: inline-block;
+    text-align: right;
+    min-width: 300px;
+   font-weight: 400;
+   color: blue;
 }
