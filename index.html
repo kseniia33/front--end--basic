@@ -3,21 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Таблиці</title>
+    <title>Флоати</title>
     <link rel="stylesheet" href="./css/stale.css">
 </head>
-<h1>Календар на 2024 рік</h1>
 <body>
-    <table>
-        <tr>
-            <td>one</td>
-            <td>two</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-    <div class="container"></div>
+<section>
+    <div class="container">
+        <div class="wrapper">
+    <div class="square float-left">1</div>
+    <div class="square float-right">2</div>
+        </div>
+     <div class="clearfix"></div>
+        <div class="wrapper">
+    
+            <div class="square float-left">1</div>
+            <div class="float-right">
+            <div class="square small float-left">2</div>
+        
+            <div class="square small float-left">3</div>
+            
+            <div class="square small float-left">4</div>
+            <div class="square small float-left">5</div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="wrapper">
+            <div class="square float-left">1</div>
+            <div class="square float-left">2</div>
+            <div class="float-right">
+            <div class="square float-left">3</div>
+            <div class="square float-left">4</div>
+            </div>
+        </div>
+    </div>
+    </section>
 </body>
 </html>
