@@ -6,100 +6,145 @@
 a {
     text-decoration: none;
 }
-
 .container {
 max-width: 1110px;
-height: 700px;
+max-width: calc(1110px + 2rem);
+padding-left: 1rem;
+padding-right: 1rem;
+margin-left: auto;
+margin-right: auto;
 }
-
 .header  {
      background-color: #EEEFF1;
-    padding-top: 79px;
-    padding-left: 399px;
-   height: 27px;
+    padding-top: 79px;  
 }
-.nav-link:hover svg path {
+.logo .color:hover svg path {
 fill: var(--#34547A);
 }
 .nav-link {
  font-family:'Roboto';
  font-size: 16px;
- line-height: 26.25px;
- font-weight: 400;  
+ line-height: 1.6;  
+ color: black;
+ margin-left: 42px;
 }
-.nav-link + .nav-link {
+ .nav-link + .nav-link {
     margin-left: 42px;
 }
 .menu {
  background-color: #EEEFF1;
-height: 673px;
-width: 1110px;
  padding-top: 178px;
-  padding-left: 399px;
-  padding-bottom: 206px;
+ padding-bottom: 141px; 
 }
-.h1 {
+.main {
     font-family: 'Roboto';
     font-size: 48px;
+    line-height: 1.6px;
     font-weight: 500;
-    line-height: 78.75px;
 }
-.p {
+.description {
    font-family: 'Roboto';
+   line-height: 1,6;
    font-size: 16px;
    font-weight: 400;
-   line-height: 26.25px;
-   margin: auto;
-  
-   height: 67px;
    color: #727272;
-   padding-left: 400px;
-   padding-top: 105px;
-   
+   margin-top: 67px;
+   margin-bottom: 70px;
+   max-width: 540px;
 }
 .wrapper {
     background-color: #34547A;
-    width: 225px;
+    max-width: 225px;
     text-align: center;
-    height: 65px;
-    margin-top: 132px;
+    height: 65px; 
+    margin-bottom: 20px;
 }
 .btn {
     color: #FFFFFF;
     font-family: 'Roboto';
+line-height: 1.6;
 font-weight: 400;
-line-height: 26.25px;
-font-size: 16px;
+
 }
 .about {
-    width: 1110px;
     background-color: whitesmoke;
     padding-top: 112px;
-    padding-left: 690px;
+    padding-bottom: 100px;
     text-align: center;
-    padding-bottom: 247px;
-  
+}
+.about .description {
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 .h2 {
     font-family: 'Roboto';
-    font-size: 32px;
     font-weight: 500;
-    line-height: 37.5px;
-    text-align: center;
-    color: black;
-    height: 30px;
-    width: 403px;
+    line-height: 1.2;
+    font-size: 32px;  
 }
 
 .numbers {
-   
-    height: 250px;
-   
     background-color: #34547A;
+  height: 250px;
+
 }
 .card {
    color: #FFFFFF;
     height: 50px;
-    width: 50px;
-    padding-left: 409px;
+    max-width: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: inline-block;
+    margin-left: 45px;
+  
+}
+
+.h3 {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1.2px;  
+    
+  
+}
+.card .description {
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    line-height: 1,6;
+    font-size: 16px;
+    font-weight: 400;
+}
+.video-title {
+    background-color: #EEEFF1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.video-title .description {
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.footer {
+    background-color: #34547A;
+    height: 151px;
+}
+.footer .h3 {
+    padding-top: 50px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1.2px;  
+}
+.footer .description {
+    color: #FFFFFF;
+    height: 12px;
+    font-family: 'Robobto';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.6px;
+  
 }
