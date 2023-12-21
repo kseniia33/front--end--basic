@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1110px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav {
+    width: 100%;
+}
+.header {
+    background-color: #81A36B;
+ padding-top: 20px;
+ padding-bottom: 21px;
+}
+.header .container {
+    display: flex;
+    align-items: center;  
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 29.53px;
+    color: #161616;   
+}
+
+.logo {
+    font-family: 'Vetrino';
+    font-size: 36px;
+    line-height: 38.74px;
+    color: #161616; 
+    margin-right: 130px;
+    max-width: 155px;
+    white-space: nowrap;
+    
+}
+.first-section {
+    background-color: #D8D8D6; 
+}
+.first-section .container {
+    display: flex;
+flex-direction: row;
+}
+
+.description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.53px;
+   
+}
+.first-section .description {
+    width: 540px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+}
+.img-wrapper {
+    max-width: 300px;
+    max-height: 670px;
+}
+.img {
+    height: 100%;
+}
+.main {
+    color: #161616;
+    font-family: 'Vetrino';
+    font-size: 62px;
+    line-height: 66.71px;
+    font-weight: 400;
+   padding-top: 178px;
+   margin-bottom: 60px;
+}
+.btn-1 {
+   background-color: #81A36B;
+   color: #161616;
+   padding: 20px 31px; 
+    text-align: center;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+}
+.btn-2 {
+   border: 1px solid #81A36B;
+   color: #161616;
+  margin-left: 65px;
+  padding: 20px 31px; 
+  text-align: center;
+  display: inline-block;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px; 
+}
+.about {
+    background-color: #D8D8D6;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.h2 {
+    font-family: 'Vetrino';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34.43px;
+    margin-bottom: 60px;
+}
+.about .description {
+    max-width: 540px;
+   margin-left: auto;
+   margin-right: auto;  
+}
+.advantages {
+    background-color: #81A36B;
+    height: 282px;  
+    text-align: center;
+  
+}
+.h3 {
+    font-family: 'Montserrat';
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 22px;
+   color: #161616;
+   padding-top: 20px;
+   
+}
+.card {
+    color: #161616;
+display: inline-block;
+padding-top: 80px;
+padding-bottom: 80px;
+margin-left: 25px;
+}
+.work {
+    background-color: #D8D8D6;
+    padding-top: 120.4px;
+  
+}
+.work .container {
+    display: flex;
+    flex-direction: row;
+}
+.work .wrapper {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.work .description {
+    margin-bottom: 60px;
+    margin-left: 30px;
+    
+}
+.foto {
+    background-color: #D8D8D6;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center; 
+}
+.foto .description {
+    padding-top: 20px;
+}
+.foto .card {
+  background-color: #81A36B;
+padding-top: 15px;
+padding-bottom: 93px;
+padding-left: 15px;
+padding-right: 15px;
+}
+.foto .wrapper {
+    display: flex;
+   height: 510px;
+}
+.foto .h2 {
+    margin-bottom: 80px;
+}
+.footer {
+    background-color: #81A36B;
+    height: 390px;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .contact {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39.38px;
+ padding-top: 60px;
+ margin-bottom: 40px;
+}
+
+.footer .wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.footer .logo {
+  padding-top: 60px;
+}
+.footer .tel {
+    color: #161616;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.53px;
+}
+.footer .socials {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39.38px;
+ padding-top: 60px;
+}
+.social-link {
+ margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.description-end {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
